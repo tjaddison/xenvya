@@ -92,9 +92,16 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-2">Custom Development</h3>
-              <p className="text-gray-600 dark:text-gray-300">
+              <p className="text-gray-600 dark:text-gray-300 mb-4">
                 We create remarkable software applications and AI systems from scratch, tailored perfectly to your specific business needs.
               </p>
+              <Link href="/services/custom-development" className="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center text-sm font-medium">
+                Learn more
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" className="ml-1">
+                  <path d="M5 12H19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M12 5L19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </Link>
             </div>
             
             <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-sm">
@@ -104,9 +111,16 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-2">Subscription Solutions</h3>
-              <p className="text-gray-600 dark:text-gray-300">
+              <p className="text-gray-600 dark:text-gray-300 mb-4">
                 Our SaaS products deliver ongoing value with regular updates, seamless integration, and excellent support for sustainable business growth.
               </p>
+              <Link href="/services/subscription-solutions" className="text-green-600 dark:text-green-400 hover:underline inline-flex items-center text-sm font-medium">
+                Learn more
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" className="ml-1">
+                  <path d="M5 12H19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M12 5L19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </Link>
             </div>
             
             <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-sm">
@@ -116,21 +130,35 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-2">Software Acquisition</h3>
-              <p className="text-gray-600 dark:text-gray-300">
+              <p className="text-gray-600 dark:text-gray-300 mb-4">
                 We identify valuable software assets, enhance their capabilities, and optimize them to create premium solutions for your business challenges.
               </p>
+              <Link href="/services/software-acquisition" className="text-purple-600 dark:text-purple-400 hover:underline inline-flex items-center text-sm font-medium">
+                Learn more
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" className="ml-1">
+                  <path d="M5 12H19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M12 5L19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </Link>
             </div>
             
             <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-sm">
-              <div className="w-12 h-12 bg-yellow-100 dark:bg-yellow-900 rounded-full flex items-center justify-center mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-yellow-600 dark:text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <div className="w-12 h-12 bg-cyan-100 dark:bg-cyan-900 rounded-full flex items-center justify-center mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-cyan-600 dark:text-cyan-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-2">Platform Revitalization</h3>
-              <p className="text-gray-600 dark:text-gray-300">
+              <p className="text-gray-600 dark:text-gray-300 mb-4">
                 We breathe new life into existing platforms, modernizing features, improving performance, and transforming them into subscription powerhouses.
               </p>
+              <Link href="/services/platform-revitalization" className="text-cyan-600 dark:text-cyan-400 hover:underline inline-flex items-center text-sm font-medium">
+                Learn more
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" className="ml-1">
+                  <path d="M5 12H19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M12 5L19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </Link>
             </div>
           </div>
         </div>
@@ -507,10 +535,10 @@ export default function Home() {
             <div>
               <h3 className="font-bold mb-4">Solutions</h3>
               <ul className="space-y-2">
-                <li><a href="#" className="text-gray-400 hover:text-white">Custom Development</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white">Subscription Solutions</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white">Software Acquisition</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white">Platform Revitalization</a></li>
+                <li><Link href="/services/custom-development" className="text-gray-400 hover:text-white">Custom Development</Link></li>
+                <li><Link href="/services/subscription-solutions" className="text-gray-400 hover:text-white">Subscription Solutions</Link></li>
+                <li><Link href="/services/software-acquisition" className="text-gray-400 hover:text-white">Software Acquisition</Link></li>
+                <li><Link href="/services/platform-revitalization" className="text-gray-400 hover:text-white">Platform Revitalization</Link></li>
               </ul>
             </div>
             <div>
