@@ -112,7 +112,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold mb-2">Subscription Solutions</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                Our SaaS products deliver ongoing value with regular updates, seamless integration, and excellent support for sustainable business growth.
+                We help businesses design, build, and support subscription-based software products that expand their offerings and drive significant business value.
               </p>
               <Link href="/services/subscription-solutions" className="text-green-600 dark:text-green-400 hover:underline inline-flex items-center text-sm font-medium">
                 Learn more

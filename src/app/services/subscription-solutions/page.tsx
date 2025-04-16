@@ -47,9 +47,9 @@ export default function SubscriptionSolutions() {
                   Back to Home
                 </Link>
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">Subscription-Based Solutions</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6">SaaS Product Development</h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-                Modern SaaS platforms that deliver ongoing value with seamless updates, expert support, and predictable costs.
+                Partner with Xenvya to design, build, and support subscription-based software that expands your offerings, grows your business, and increases profitability.
               </p>
               <div className="flex flex-wrap gap-3 mb-8">
                 <span className="px-4 py-2 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 rounded-full text-sm font-medium">SaaS Platforms</span>
@@ -57,7 +57,7 @@ export default function SubscriptionSolutions() {
                 <span className="px-4 py-2 bg-emerald-100 dark:bg-emerald-900/30 text-emerald-800 dark:text-emerald-300 rounded-full text-sm font-medium">Continuous Updates</span>
               </div>
               <Link href="/#contact" className="inline-flex items-center justify-center bg-green-600 hover:bg-green-700 text-white py-3 px-6 rounded-lg transition-colors font-medium">
-                Explore Subscription Options
+                Create Your SaaS Product
               </Link>
             </div>
             <div className="md:w-1/2">
@@ -121,62 +121,90 @@ export default function SubscriptionSolutions() {
           <div className="grid md:grid-cols-3 gap-12">
             <div className="md:col-span-2 space-y-8">
               <div>
-                <h2 className="text-3xl font-bold mb-6">Transform Your Business with SaaS Solutions</h2>
+                <h2 className="text-3xl font-bold mb-6">Create Valuable SaaS Products for Your Business</h2>
                 <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-                  Xenvya's subscription-based software solutions offer the perfect blend of cutting-edge technology, regular updates, and predictable costs. Our SaaS platforms allow your business to stay at the forefront of innovation without the overhead of managing complex infrastructure.
+                  At Xenvya, we partner with businesses to develop, launch, and support subscription-based software products that become valuable assets for your company. By expanding into the SaaS space, you can establish predictable recurring revenue streams, enhance customer relationships, and build significant business value.
+                </p>
+                <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
+                  Our end-to-end approach covers everything from initial concept and market validation to technical architecture, development, and ongoing evolution. We help you create software that delivers exceptional value to your customers while providing an appreciating asset for your business.
                 </p>
                 <p className="text-lg text-gray-600 dark:text-gray-300">
-                  With our subscription model, you receive continuous improvements, security updates, and expert support—all for a predictable monthly fee. Focus on your core business while we ensure your software remains current, secure, and optimized for your evolving needs.
+                  Unlike traditional software, SaaS products generate increasing value over time as your customer base grows, allowing you to scale efficiently while maintaining high profit margins. Ownership of a successful SaaS platform significantly increases your company's valuation and provides strategic advantages in your market.
                 </p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold mb-4">The Subscription Advantage</h3>
+                <h3 className="text-2xl font-bold mb-4">Business Benefits of Owning a SaaS Product</h3>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
                     <div className="mb-4 w-12 h-12 bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center">
                       <svg className="w-6 h-6 text-green-600 dark:text-green-400" viewBox="0 0 24 24" fill="none">
-                        <path d="M9 5H7C5.89543 5 5 5.89543 5 7V19C5 20.1046 5.89543 21 7 21H17C18.1046 21 19 20.1046 19 19V7C19 5.89543 18.1046 5 17 5H15M9 5C9 6.10457 9.89543 7 11 7H13C14.1046 7 15 6.10457 15 5M9 5C9 3.89543 9.89543 3 11 3H13C14.1046 3 15 3.89543 15 5M12 12H15M12 16H15M9 12H9.01M9 16H9.01" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M12 8C10.8954 8 10 8.89543 10 10C10 11.1046 10.8954 12 12 12C13.1046 12 14 11.1046 14 10C14 8.89543 13.1046 8 12 8Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M12 22C14.5 22 16.5 17.5228 16.5 12C16.5 6.47715 14.5 2 12 2C9.5 2 7.5 6.47715 7.5 12C7.5 17.5228 9.5 22 12 22Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M2 12H22" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                       </svg>
                     </div>
-                    <h4 className="text-xl font-bold mb-2">Predictable Costs</h4>
+                    <h4 className="text-xl font-bold mb-2">Predictable Recurring Revenue</h4>
                     <p className="text-gray-600 dark:text-gray-300">
-                      Transform large upfront capital expenditures into manageable operational expenses with our subscription model. Budget with confidence knowing exactly what your software costs will be.
+                      Transform your business model with stable, predictable monthly income that compounds as your customer base grows. Subscription revenue provides financial stability and simplifies forecasting and planning.
                     </p>
                   </div>
                   <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
                     <div className="mb-4 w-12 h-12 bg-teal-100 dark:bg-teal-900/30 rounded-full flex items-center justify-center">
                       <svg className="w-6 h-6 text-teal-600 dark:text-teal-400" viewBox="0 0 24 24" fill="none">
-                        <path d="M19.0001 8.71001L13.4101 14.3C13.221 14.4899 12.9801 14.595 12.7276 14.6002C12.4752 14.6055 12.2302 14.5105 12.0343 14.33L11.9101 14.22C11.7086 14.0317 11.426 13.9401 11.1444 13.9633C10.8627 13.9864 10.6028 14.1222 10.4301 14.34L7.00009 19M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                       </svg>
                     </div>
-                    <h4 className="text-xl font-bold mb-2">Continuous Improvement</h4>
+                    <h4 className="text-xl font-bold mb-2">Enhanced Customer Relationships</h4>
                     <p className="text-gray-600 dark:text-gray-300">
-                      Benefit from regular updates, new features, and enhancements delivered seamlessly. Your software evolves alongside your business, incorporating the latest innovations and best practices.
+                      Develop deeper, ongoing relationships with customers through continuous service delivery. The subscription model aligns your success with customer success, driving stronger loyalty and higher lifetime value.
                     </p>
                   </div>
                   <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
                     <div className="mb-4 w-12 h-12 bg-emerald-100 dark:bg-emerald-900/30 rounded-full flex items-center justify-center">
                       <svg className="w-6 h-6 text-emerald-600 dark:text-emerald-400" viewBox="0 0 24 24" fill="none">
-                        <path d="M9 11L12 14L22 4M21 12V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M3 9L12 2L21 9V20C21 20.5304 20.7893 21.0391 20.4142 21.4142C20.0391 21.7893 19.5304 22 19 22H5C4.46957 22 3.96086 21.7893 3.58579 21.4142C3.21071 21.0391 3 20.5304 3 20V9Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M9 22V12H15V22" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                       </svg>
                     </div>
-                    <h4 className="text-xl font-bold mb-2">Reduced IT Burden</h4>
+                    <h4 className="text-xl font-bold mb-2">Increased Company Valuation</h4>
                     <p className="text-gray-600 dark:text-gray-300">
-                      Eliminate the need for in-house hosting, maintenance, and updates. We handle the technical infrastructure so your IT team can focus on strategic initiatives rather than routine maintenance.
+                      SaaS businesses typically command higher valuation multiples than traditional businesses due to their predictable revenue, scalability, and growth potential. A successful SaaS product can significantly increase your company's market value.
                     </p>
                   </div>
                   <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
                     <div className="mb-4 w-12 h-12 bg-cyan-100 dark:bg-cyan-900/30 rounded-full flex items-center justify-center">
                       <svg className="w-6 h-6 text-cyan-600 dark:text-cyan-400" viewBox="0 0 24 24" fill="none">
-                        <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                        <path d="M12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                        <path d="M12 5V5.01M12 19V19.01M5 12H5.01M19 12H19.01M7.05 7.05H7.06M16.94 16.94H16.95M16.94 7.05H16.95M7.05 16.94H7.06" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M16 3H21M21 3V8M21 3L14 10M8 21H3M3 21V16M3 21L10 14" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                       </svg>
                     </div>
-                    <h4 className="text-xl font-bold mb-2">Expert Support</h4>
+                    <h4 className="text-xl font-bold mb-2">Scalable Growth Model</h4>
                     <p className="text-gray-600 dark:text-gray-300">
-                      Access dedicated customer success teams and technical support whenever you need assistance. Our experts understand your implementation and can quickly resolve issues or answer questions.
+                      Unlike traditional business models, SaaS solutions can scale rapidly without proportional increases in costs. Once developed, you can serve additional customers with minimal incremental expense, driving exceptional profit margins at scale.
+                    </p>
+                  </div>
+                  <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
+                    <div className="mb-4 w-12 h-12 bg-lime-100 dark:bg-lime-900/30 rounded-full flex items-center justify-center">
+                      <svg className="w-6 h-6 text-lime-600 dark:text-lime-400" viewBox="0 0 24 24" fill="none">
+                        <path d="M12 8V16M8 12H16M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                    </div>
+                    <h4 className="text-xl font-bold mb-2">Diversified Revenue Streams</h4>
+                    <p className="text-gray-600 dark:text-gray-300">
+                      Expand your business offerings and reduce market risk by adding subscription-based software to your product portfolio. SaaS products complement existing services and create new revenue opportunities from both current and new customers.
+                    </p>
+                  </div>
+                  <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
+                    <div className="mb-4 w-12 h-12 bg-amber-100 dark:bg-amber-900/30 rounded-full flex items-center justify-center">
+                      <svg className="w-6 h-6 text-amber-600 dark:text-amber-400" viewBox="0 0 24 24" fill="none">
+                        <path d="M9 19V13C9 11.8954 8.10457 11 7 11H5C3.89543 11 3 11.8954 3 13V19H9ZM9 19H15M9 19V9C9 7.89543 9.89543 7 11 7H13C14.1046 7 15 7.89543 15 9V19M15 19H21M15 19V5C15 3.89543 15.8954 3 17 3H19C20.1046 3 21 3.89543 21 5V19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                    </div>
+                    <h4 className="text-xl font-bold mb-2">Data-Driven Insights</h4>
+                    <p className="text-gray-600 dark:text-gray-300">
+                      Gain valuable insights from user behavior and product usage that can inform business decisions and product improvements. SaaS products provide ongoing customer intelligence that can benefit your entire organization.
                     </p>
                   </div>
                 </div>
@@ -236,7 +264,7 @@ export default function SubscriptionSolutions() {
 
             <div className="space-y-8">
               <div className="bg-green-50 dark:bg-green-900/20 rounded-xl p-6">
-                <h3 className="text-xl font-bold mb-4">Popular Subscription Solutions</h3>
+                <h3 className="text-xl font-bold mb-4">SaaS Opportunities for Your Business</h3>
                 <ul className="space-y-4">
                   <li className="flex gap-3">
                     <div className="flex-shrink-0 w-8 h-8 bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center">
@@ -245,8 +273,8 @@ export default function SubscriptionSolutions() {
                       </svg>
                     </div>
                     <div>
-                      <h4 className="font-bold mb-1">Enterprise Resource Planning</h4>
-                      <p className="text-sm text-gray-600 dark:text-gray-300">Integrated solutions for managing core business processes in real-time.</p>
+                      <h4 className="font-bold mb-1">Productizing Your Expertise</h4>
+                      <p className="text-sm text-gray-600 dark:text-gray-300">Convert your company's specialized knowledge into software that can be sold at scale without proportionately increasing service costs.</p>
                     </div>
                   </li>
                   <li className="flex gap-3">
@@ -256,8 +284,8 @@ export default function SubscriptionSolutions() {
                       </svg>
                     </div>
                     <div>
-                      <h4 className="font-bold mb-1">Business Intelligence</h4>
-                      <p className="text-sm text-gray-600 dark:text-gray-300">Advanced analytics and reporting tools for data-driven decision making.</p>
+                      <h4 className="font-bold mb-1">Industry-Specific Solutions</h4>
+                      <p className="text-sm text-gray-600 dark:text-gray-300">Develop vertical SaaS products that solve unique challenges in your industry, leveraging your specialized domain knowledge.</p>
                     </div>
                   </li>
                   <li className="flex gap-3">
@@ -268,8 +296,8 @@ export default function SubscriptionSolutions() {
                       </svg>
                     </div>
                     <div>
-                      <h4 className="font-bold mb-1">Customer Relationship Management</h4>
-                      <p className="text-sm text-gray-600 dark:text-gray-300">Tools for managing customer interactions, sales pipelines, and support workflows.</p>
+                      <h4 className="font-bold mb-1">Enhancing Customer Experience</h4>
+                      <p className="text-sm text-gray-600 dark:text-gray-300">Create software that complements your physical products or services, improving customer experience and adding recurring revenue streams.</p>
                     </div>
                   </li>
                   <li className="flex gap-3">
@@ -279,19 +307,19 @@ export default function SubscriptionSolutions() {
                       </svg>
                     </div>
                     <div>
-                      <h4 className="font-bold mb-1">Project Management</h4>
-                      <p className="text-sm text-gray-600 dark:text-gray-300">Collaborative platforms for planning, tracking, and delivering projects efficiently.</p>
+                      <h4 className="font-bold mb-1">Automation Platforms</h4>
+                      <p className="text-sm text-gray-600 dark:text-gray-300">Build tools that automate common workflows in your industry, saving time for your customers while generating predictable subscription revenue.</p>
                     </div>
                   </li>
                   <li className="flex gap-3">
                     <div className="flex-shrink-0 w-8 h-8 bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center">
                       <svg className="w-4 h-4 text-green-600 dark:text-green-400" viewBox="0 0 24 24" fill="none">
-                        <path d="M21 11.5C21.0034 12.8199 20.6951 14.1219 20.1 15.3C19.3944 16.7118 18.3098 17.8992 16.9674 18.7293C15.6251 19.5594 14.0782 19.9994 12.5 20C11.1801 20.0035 9.87812 19.6951 8.7 19.1L3 21L4.9 15.3C4.30493 14.1219 3.99656 12.8199 4 11.5C4.00061 9.92179 4.44061 8.37488 5.27072 7.03258C6.10083 5.69028 7.28825 4.6056 8.7 3.90003C9.87812 3.30496 11.1801 2.99659 12.5 3.00003H13C15.0843 3.11502 17.053 3.99479 18.5291 5.47089C20.0052 6.94699 20.885 8.91568 21 11V11.5Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M15 15L21 21M10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10C17 13.866 13.866 17 10 17Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                       </svg>
                     </div>
                     <div>
-                      <h4 className="font-bold mb-1">Communication & Collaboration</h4>
-                      <p className="text-sm text-gray-600 dark:text-gray-300">Tools that connect teams and facilitate effective communication across organizations.</p>
+                      <h4 className="font-bold mb-1">Data Analytics & Insights</h4>
+                      <p className="text-sm text-gray-600 dark:text-gray-300">Develop platforms that help businesses collect, analyze, and visualize data to improve decision-making and operational efficiency.</p>
                     </div>
                   </li>
                 </ul>
@@ -409,12 +437,12 @@ export default function SubscriptionSolutions() {
       {/* CTA Section */}
       <section className="py-20 px-6 bg-gradient-to-br from-green-500 to-teal-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Transform Your Business with Subscription Solutions</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Turn Your Expertise Into Valuable SaaS Products</h2>
           <p className="text-xl mb-8">
-            Join thousands of organizations benefiting from our flexible, powerful, and continuously improving subscription software.
+            Partner with Xenvya to design, build, and launch subscription-based software that creates new revenue streams and significant business value.
           </p>
           <Link href="/#contact" className="inline-flex items-center justify-center bg-white text-green-600 py-4 px-8 rounded-lg transition-colors font-medium text-lg hover:bg-gray-100">
-            Start Your Free Trial Today
+            Start Your SaaS Journey Today
           </Link>
         </div>
       </section>
