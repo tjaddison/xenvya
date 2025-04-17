@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function SubscriptionSolutions() {
+export default function SaasProductDevelopment() {
   return (
     <div className="min-h-screen flex flex-col bg-white dark:bg-gray-900">
       {/* Navigation */}
@@ -49,12 +49,12 @@ export default function SubscriptionSolutions() {
               </div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6">SaaS Product Development</h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-                Partner with Xenvya to design, build, and support subscription-based software that expands your offerings, grows your business, and increases profitability.
+                Partner with Xenvya to design, build, and support SaaS and AI products that leverage your domain expertise, create new revenue streams, and expand your market reach.
               </p>
               <div className="flex flex-wrap gap-3 mb-8">
                 <span className="px-4 py-2 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 rounded-full text-sm font-medium">SaaS Platforms</span>
-                <span className="px-4 py-2 bg-teal-100 dark:bg-teal-900/30 text-teal-800 dark:text-teal-300 rounded-full text-sm font-medium">Recurring Revenue</span>
-                <span className="px-4 py-2 bg-emerald-100 dark:bg-emerald-900/30 text-emerald-800 dark:text-emerald-300 rounded-full text-sm font-medium">Continuous Updates</span>
+                <span className="px-4 py-2 bg-teal-100 dark:bg-teal-900/30 text-teal-800 dark:text-teal-300 rounded-full text-sm font-medium">AI Products</span>
+                <span className="px-4 py-2 bg-emerald-100 dark:bg-emerald-900/30 text-emerald-800 dark:text-emerald-300 rounded-full text-sm font-medium">Domain-Specific</span>
               </div>
               <Link href="/#contact" className="inline-flex items-center justify-center bg-green-600 hover:bg-green-700 text-white py-3 px-6 rounded-lg transition-colors font-medium">
                 Create Your SaaS Product
@@ -254,7 +254,7 @@ export default function SubscriptionSolutions() {
                     <div>
                       <h4 className="text-xl font-bold mb-2">Data-Driven Improvement</h4>
                       <p className="text-gray-600 dark:text-gray-300">
-                        We analyze usage patterns and performance metrics to continuously optimize your software. This iterative approach ensures that your subscription solution keeps getting better over time.
+                        We analyze usage patterns and performance metrics to continuously optimize your software. This iterative approach ensures that your SaaS product keeps getting better over time.
                       </p>
                     </div>
                   </div>
@@ -474,7 +474,7 @@ export default function SubscriptionSolutions() {
             <div>
               <h3 className="font-bold mb-4">Solutions</h3>
               <ul className="space-y-2">
-                <li><Link href="/services/subscription-solutions" className="text-gray-400 hover:text-white">Subscription Solutions</Link></li>
+                <li><Link href="/services/saas-product-development" className="text-gray-400 hover:text-white">SaaS Product Development</Link></li>
                 <li><Link href="/services/software-acquisition" className="text-gray-400 hover:text-white">Software Acquisition</Link></li>
               </ul>
             </div>

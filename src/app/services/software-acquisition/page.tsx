@@ -47,14 +47,15 @@ export default function SoftwareAcquisition() {
                   Back to Home
                 </Link>
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">Software Acquisition & Enhancement</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6">Software Acquisition & Revitalization</h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-                Identifying, acquiring, and transforming valuable software assets into powerful business solutions with enhanced capabilities.
+                Identifying, acquiring, and transforming valuable software assets into powerful business solutions with enhanced capabilities, while also revitalizing existing platforms with modern features and improved performance.
               </p>
               <div className="flex flex-wrap gap-3 mb-8">
                 <span className="px-4 py-2 bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 rounded-full text-sm font-medium">Strategic Acquisition</span>
                 <span className="px-4 py-2 bg-indigo-100 dark:bg-indigo-900/30 text-indigo-800 dark:text-indigo-300 rounded-full text-sm font-medium">Value Enhancement</span>
                 <span className="px-4 py-2 bg-violet-100 dark:bg-violet-900/30 text-violet-800 dark:text-violet-300 rounded-full text-sm font-medium">Market Repositioning</span>
+                <span className="px-4 py-2 bg-cyan-100 dark:bg-cyan-900/30 text-cyan-800 dark:text-cyan-300 rounded-full text-sm font-medium">Platform Revitalization</span>
               </div>
               <Link href="/#contact" className="inline-flex items-center justify-center bg-purple-600 hover:bg-purple-700 text-white py-3 px-6 rounded-lg transition-colors font-medium">
                 Discover Opportunities
@@ -109,12 +110,15 @@ export default function SoftwareAcquisition() {
           <div className="grid md:grid-cols-3 gap-12">
             <div className="md:col-span-2 space-y-8">
               <div>
-                <h2 className="text-3xl font-bold mb-6">Strategic Software Acquisition & Enhancement</h2>
+                <h2 className="text-3xl font-bold mb-6">Strategic Software Acquisition & Revitalization</h2>
                 <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-                  Xenvya applies a unique approach to software acquisition, identifying undervalued or underutilized software assets with strong potential. We evaluate, acquire, and transform these products into high-value solutions that address specific market needs.
+                  Xenvya applies a unique approach to software acquisition and revitalization, identifying undervalued or underutilized software assets with strong potential. We evaluate, acquire, and transform these products into high-value solutions that address specific market needs, while also breathing new life into existing platforms.
+                </p>
+                <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
+                  Our acquisition strategy parallels successful real estate investment principles: we find promising software "properties," renovate and modernize them with enhanced features and technology, and then position them optimally in the market to maximize their value and utility.
                 </p>
                 <p className="text-lg text-gray-600 dark:text-gray-300">
-                  Our acquisition strategy parallels successful real estate investment principles: we find promising software "properties," renovate and modernize them with enhanced features and technology, and then position them optimally in the market to maximize their value and utility.
+                  With our platform revitalization expertise, we transform aging software platforms into modern, competitive solutions that meet today's business demands, carefully preserving valuable business logic while replacing outdated architecture and improving user experiences.
                 </p>
               </div>
 
@@ -196,6 +200,19 @@ export default function SoftwareAcquisition() {
                     <h4 className="text-xl font-bold mb-2">UX Transformation</h4>
                     <p className="text-gray-600 dark:text-gray-300">
                       Our design experts reimagine user interfaces and experiences, creating intuitive, modern, and delightful interactions that increase user adoption and satisfaction.
+                    </p>
+                  </div>
+                  <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
+                    <div className="mb-4 w-12 h-12 bg-cyan-100 dark:bg-cyan-900/30 rounded-full flex items-center justify-center">
+                      <svg className="w-6 h-6 text-cyan-600 dark:text-cyan-400" viewBox="0 0 24 24" fill="none">
+                        <path d="M21 16V8.00002C20.9996 7.6493 20.9071 7.30483 20.7315 7.00119C20.556 6.69754 20.3037 6.44539 20 6.27002L13 2.27002C12.696 2.09449 12.3511 2.00208 12 2.00208C11.6489 2.00208 11.304 2.09449 11 2.27002L4 6.27002C3.69626 6.44539 3.44398 6.69754 3.26846 7.00119C3.09294 7.30483 3.00036 7.6493 3 8.00002V16C3.00036 16.3508 3.09294 16.6952 3.26846 16.9989C3.44398 17.3025 3.69626 17.5547 4 17.73L11 21.73C11.304 21.9056 11.6489 21.998 12 21.998C12.3511 21.998 12.696 21.9056 13 21.73L20 17.73C20.3037 17.5547 20.556 17.3025 20.7315 16.9989C20.9071 16.6952 20.9996 16.3508 21 16Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                        <path d="M3.27002 6.96002L12 12.01L20.73 6.96002" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                        <path d="M12 22.08V12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
+                    </div>
+                    <h4 className="text-xl font-bold mb-2">Platform Revitalization</h4>
+                    <p className="text-gray-600 dark:text-gray-300">
+                      We breathe new life into existing platforms, modernizing features, improving performance, and transforming outdated software into competitive, modern solutions.
                     </p>
                   </div>
                   <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
@@ -439,10 +456,8 @@ export default function SoftwareAcquisition() {
             <div>
               <h3 className="font-bold mb-4">Solutions</h3>
               <ul className="space-y-2">
-                <li><Link href="/services/custom-development" className="text-gray-400 hover:text-white">Custom Development</Link></li>
                 <li><Link href="/services/subscription-solutions" className="text-gray-400 hover:text-white">Subscription Solutions</Link></li>
                 <li><Link href="/services/software-acquisition" className="text-gray-400 hover:text-white">Software Acquisition</Link></li>
-                <li><Link href="/services/platform-revitalization" className="text-gray-400 hover:text-white">Platform Revitalization</Link></li>
               </ul>
             </div>
             <div>
