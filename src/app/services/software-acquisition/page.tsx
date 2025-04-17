@@ -4,10 +4,10 @@ export default function SoftwareAcquisition() {
   return (
     <div className="min-h-screen flex flex-col bg-white dark:bg-gray-900">
       {/* Navigation */}
-      <header className="p-6 flex justify-between items-center border-b border-gray-100 dark:border-gray-800">
+      <header className="p-4 sm:p-6 flex flex-wrap justify-between items-center relative">
         <div className="flex items-center">
           <Link href="/" className="flex items-center">
-            <svg width="40" height="40" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-2">
+            <svg width="32" height="32" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-2 sm:w-10 sm:h-10">
               <path d="M60 10L110 40V80L60 110L10 80V40L60 10Z" fill="url(#paint0_linear)" />
               <path d="M60 10L110 40V80L60 110L10 80V40L60 10Z" stroke="currentColor" strokeWidth="2" />
               <path d="M37 55L60 65L83 55" stroke="white" strokeWidth="4" strokeLinecap="round" />
@@ -19,18 +19,22 @@ export default function SoftwareAcquisition() {
                 </linearGradient>
               </defs>
             </svg>
-            <h1 className="text-2xl font-bold">XENVYA</h1>
+            <h1 className="text-xl sm:text-2xl font-bold">XENVYA</h1>
           </Link>
         </div>
-        <nav className="hidden md:flex space-x-8">
-          <Link href="/#solutions" className="hover:underline">Solutions</Link>
-          <Link href="/#approach" className="hover:underline">Our Approach</Link>
-          <Link href="/#values" className="hover:underline">Values</Link>
-          <Link href="/#contact" className="hover:underline">Contact Us</Link>
-        </nav>
-        <Link href="/#contact" className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm px-5 py-2">
-          Get Started
-        </Link>
+        
+        <div className="flex items-center gap-4">
+          <nav className="hidden md:flex space-x-4 lg:space-x-8">
+            <Link href="/#solutions" className="hover:underline text-sm lg:text-base">Solutions</Link>
+            <Link href="/#approach" className="hover:underline text-sm lg:text-base">Our Approach</Link>
+            <Link href="/#values" className="hover:underline text-sm lg:text-base">Values</Link>
+            <Link href="/#contact" className="hover:underline text-sm lg:text-base">Contact Us</Link>
+          </nav>
+          
+          <Link href="/login" className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-xs sm:text-sm px-3 sm:px-5 py-1.5 sm:py-2 whitespace-nowrap">
+            Login
+          </Link>
+        </div>
       </header>
 
       {/* Hero Section */}
@@ -463,7 +467,7 @@ export default function SoftwareAcquisition() {
             <div>
               <h3 className="font-bold mb-4">Company</h3>
               <ul className="space-y-2">
-                <li><Link href="/" className="text-gray-400 hover:text-white">About Us</Link></li>
+                <li><Link href="/about" className="text-gray-400 hover:text-white">About Us</Link></li>
                 <li><Link href="/#approach" className="text-gray-400 hover:text-white">Our Approach</Link></li>
                 <li><Link href="/#values" className="text-gray-400 hover:text-white">Core Values</Link></li>
                 <li><Link href="/#contact" className="text-gray-400 hover:text-white">Contact</Link></li>
@@ -475,19 +479,17 @@ export default function SoftwareAcquisition() {
                 <li>
                   <a href="#" className="text-gray-400 hover:text-white flex items-center">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-2">
-                      <path d="M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V21H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V21H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M6 9H2V21H6V9Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M4 6C5.10457 6 6 5.10457 6 4C6 2.89543 5.10457 2 4 2C2.89543 2 2 2.89543 2 4C2 5.10457 2.89543 6 4 6Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" stroke="currentColor" strokeWidth="1.5" />
                     </svg>
-                    LinkedIn
+                    X
                   </a>
                 </li>
                 <li>
                   <a href="#" className="text-gray-400 hover:text-white flex items-center">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-2">
-                      <path d="M22 4.01C21 4.5 20.02 4.69 19 5C17.879 3.735 16.217 3.665 14.62 4.263C13.023 4.861 12.006 6.13 12 7.7V8.7C8.755 8.818 5.865 7.4 4 5C4 5 -0.182 12.433 8 16C6.128 17.247 4.261 18.088 2 18C5.308 19.803 8.913 20.423 12.034 19.517C15.614 18.477 18.556 15.794 19.685 11.775C20.0218 10.4166 20.1579 9.01659 20.088 7.62C20.088 7.25 21.692 5.389 22 4.009V4.01Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" stroke="currentColor" strokeWidth="1.5" />
                     </svg>
-                    Twitter
+                    X
                   </a>
                 </li>
                 <li>
