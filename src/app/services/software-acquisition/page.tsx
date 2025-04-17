@@ -4,10 +4,10 @@ export default function SoftwareAcquisition() {
   return (
     <div className="min-h-screen flex flex-col bg-white dark:bg-gray-900">
       {/* Navigation */}
-      <header className="p-6 flex justify-between items-center border-b border-gray-100 dark:border-gray-800">
+      <header className="p-4 sm:p-6 flex flex-wrap justify-between items-center relative">
         <div className="flex items-center">
           <Link href="/" className="flex items-center">
-            <svg width="40" height="40" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-2">
+            <svg width="32" height="32" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-2 sm:w-10 sm:h-10">
               <path d="M60 10L110 40V80L60 110L10 80V40L60 10Z" fill="url(#paint0_linear)" />
               <path d="M60 10L110 40V80L60 110L10 80V40L60 10Z" stroke="currentColor" strokeWidth="2" />
               <path d="M37 55L60 65L83 55" stroke="white" strokeWidth="4" strokeLinecap="round" />
@@ -19,18 +19,22 @@ export default function SoftwareAcquisition() {
                 </linearGradient>
               </defs>
             </svg>
-            <h1 className="text-2xl font-bold">XENVYA</h1>
+            <h1 className="text-xl sm:text-2xl font-bold">XENVYA</h1>
           </Link>
         </div>
-        <nav className="hidden md:flex space-x-8">
-          <Link href="/#solutions" className="hover:underline">Solutions</Link>
-          <Link href="/#approach" className="hover:underline">Our Approach</Link>
-          <Link href="/#values" className="hover:underline">Values</Link>
-          <Link href="/#contact" className="hover:underline">Contact Us</Link>
-        </nav>
-        <Link href="/#contact" className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm px-5 py-2">
-          Get Started
-        </Link>
+        
+        <div className="flex items-center gap-4">
+          <nav className="hidden md:flex space-x-4 lg:space-x-8">
+            <Link href="/#solutions" className="hover:underline text-sm lg:text-base">Solutions</Link>
+            <Link href="/#approach" className="hover:underline text-sm lg:text-base">Our Approach</Link>
+            <Link href="/#values" className="hover:underline text-sm lg:text-base">Values</Link>
+            <Link href="/#contact" className="hover:underline text-sm lg:text-base">Contact Us</Link>
+          </nav>
+          
+          <Link href="/login" className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-xs sm:text-sm px-3 sm:px-5 py-1.5 sm:py-2 whitespace-nowrap">
+            Login
+          </Link>
+        </div>
       </header>
 
       {/* Hero Section */}
@@ -47,14 +51,15 @@ export default function SoftwareAcquisition() {
                   Back to Home
                 </Link>
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">Software Acquisition & Enhancement</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6">Software Acquisition & Revitalization</h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-                Identifying, acquiring, and transforming valuable software assets into powerful business solutions with enhanced capabilities.
+                Identifying, acquiring, and transforming valuable software assets into powerful business solutions with enhanced capabilities, while also revitalizing existing platforms with modern features and improved performance.
               </p>
               <div className="flex flex-wrap gap-3 mb-8">
                 <span className="px-4 py-2 bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 rounded-full text-sm font-medium">Strategic Acquisition</span>
                 <span className="px-4 py-2 bg-indigo-100 dark:bg-indigo-900/30 text-indigo-800 dark:text-indigo-300 rounded-full text-sm font-medium">Value Enhancement</span>
                 <span className="px-4 py-2 bg-violet-100 dark:bg-violet-900/30 text-violet-800 dark:text-violet-300 rounded-full text-sm font-medium">Market Repositioning</span>
+                <span className="px-4 py-2 bg-cyan-100 dark:bg-cyan-900/30 text-cyan-800 dark:text-cyan-300 rounded-full text-sm font-medium">Platform Revitalization</span>
               </div>
               <Link href="/#contact" className="inline-flex items-center justify-center bg-purple-600 hover:bg-purple-700 text-white py-3 px-6 rounded-lg transition-colors font-medium">
                 Discover Opportunities
@@ -109,12 +114,15 @@ export default function SoftwareAcquisition() {
           <div className="grid md:grid-cols-3 gap-12">
             <div className="md:col-span-2 space-y-8">
               <div>
-                <h2 className="text-3xl font-bold mb-6">Strategic Software Acquisition & Enhancement</h2>
+                <h2 className="text-3xl font-bold mb-6">Strategic Software Acquisition & Revitalization</h2>
                 <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-                  Xenvya applies a unique approach to software acquisition, identifying undervalued or underutilized software assets with strong potential. We evaluate, acquire, and transform these products into high-value solutions that address specific market needs.
+                  Xenvya applies a unique approach to software acquisition and revitalization, identifying undervalued or underutilized software assets with strong potential. We evaluate, acquire, and transform these products into high-value solutions that address specific market needs, while also breathing new life into existing platforms.
+                </p>
+                <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
+                  Our acquisition strategy parallels successful real estate investment principles: we find promising software "properties," renovate and modernize them with enhanced features and technology, and then position them optimally in the market to maximize their value and utility.
                 </p>
                 <p className="text-lg text-gray-600 dark:text-gray-300">
-                  Our acquisition strategy parallels successful real estate investment principles: we find promising software "properties," renovate and modernize them with enhanced features and technology, and then position them optimally in the market to maximize their value and utility.
+                  With our platform revitalization expertise, we transform aging software platforms into modern, competitive solutions that meet today's business demands, carefully preserving valuable business logic while replacing outdated architecture and improving user experiences.
                 </p>
               </div>
 
@@ -196,6 +204,19 @@ export default function SoftwareAcquisition() {
                     <h4 className="text-xl font-bold mb-2">UX Transformation</h4>
                     <p className="text-gray-600 dark:text-gray-300">
                       Our design experts reimagine user interfaces and experiences, creating intuitive, modern, and delightful interactions that increase user adoption and satisfaction.
+                    </p>
+                  </div>
+                  <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
+                    <div className="mb-4 w-12 h-12 bg-cyan-100 dark:bg-cyan-900/30 rounded-full flex items-center justify-center">
+                      <svg className="w-6 h-6 text-cyan-600 dark:text-cyan-400" viewBox="0 0 24 24" fill="none">
+                        <path d="M21 16V8.00002C20.9996 7.6493 20.9071 7.30483 20.7315 7.00119C20.556 6.69754 20.3037 6.44539 20 6.27002L13 2.27002C12.696 2.09449 12.3511 2.00208 12 2.00208C11.6489 2.00208 11.304 2.09449 11 2.27002L4 6.27002C3.69626 6.44539 3.44398 6.69754 3.26846 7.00119C3.09294 7.30483 3.00036 7.6493 3 8.00002V16C3.00036 16.3508 3.09294 16.6952 3.26846 16.9989C3.44398 17.3025 3.69626 17.5547 4 17.73L11 21.73C11.304 21.9056 11.6489 21.998 12 21.998C12.3511 21.998 12.696 21.9056 13 21.73L20 17.73C20.3037 17.5547 20.556 17.3025 20.7315 16.9989C20.9071 16.6952 20.9996 16.3508 21 16Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                        <path d="M3.27002 6.96002L12 12.01L20.73 6.96002" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                        <path d="M12 22.08V12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
+                    </div>
+                    <h4 className="text-xl font-bold mb-2">Platform Revitalization</h4>
+                    <p className="text-gray-600 dark:text-gray-300">
+                      We breathe new life into existing platforms, modernizing features, improving performance, and transforming outdated software into competitive, modern solutions.
                     </p>
                   </div>
                   <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
@@ -439,16 +460,14 @@ export default function SoftwareAcquisition() {
             <div>
               <h3 className="font-bold mb-4">Solutions</h3>
               <ul className="space-y-2">
-                <li><Link href="/services/custom-development" className="text-gray-400 hover:text-white">Custom Development</Link></li>
                 <li><Link href="/services/subscription-solutions" className="text-gray-400 hover:text-white">Subscription Solutions</Link></li>
                 <li><Link href="/services/software-acquisition" className="text-gray-400 hover:text-white">Software Acquisition</Link></li>
-                <li><Link href="/services/platform-revitalization" className="text-gray-400 hover:text-white">Platform Revitalization</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="font-bold mb-4">Company</h3>
               <ul className="space-y-2">
-                <li><Link href="/" className="text-gray-400 hover:text-white">About Us</Link></li>
+                <li><Link href="/about" className="text-gray-400 hover:text-white">About Us</Link></li>
                 <li><Link href="/#approach" className="text-gray-400 hover:text-white">Our Approach</Link></li>
                 <li><Link href="/#values" className="text-gray-400 hover:text-white">Core Values</Link></li>
                 <li><Link href="/#contact" className="text-gray-400 hover:text-white">Contact</Link></li>
@@ -460,19 +479,17 @@ export default function SoftwareAcquisition() {
                 <li>
                   <a href="#" className="text-gray-400 hover:text-white flex items-center">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-2">
-                      <path d="M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V21H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V21H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M6 9H2V21H6V9Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M4 6C5.10457 6 6 5.10457 6 4C6 2.89543 5.10457 2 4 2C2.89543 2 2 2.89543 2 4C2 5.10457 2.89543 6 4 6Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" stroke="currentColor" strokeWidth="1.5" />
                     </svg>
-                    LinkedIn
+                    X
                   </a>
                 </li>
                 <li>
                   <a href="#" className="text-gray-400 hover:text-white flex items-center">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-2">
-                      <path d="M22 4.01C21 4.5 20.02 4.69 19 5C17.879 3.735 16.217 3.665 14.62 4.263C13.023 4.861 12.006 6.13 12 7.7V8.7C8.755 8.818 5.865 7.4 4 5C4 5 -0.182 12.433 8 16C6.128 17.247 4.261 18.088 2 18C5.308 19.803 8.913 20.423 12.034 19.517C15.614 18.477 18.556 15.794 19.685 11.775C20.0218 10.4166 20.1579 9.01659 20.088 7.62C20.088 7.25 21.692 5.389 22 4.009V4.01Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" stroke="currentColor" strokeWidth="1.5" />
                     </svg>
-                    Twitter
+                    X
                   </a>
                 </li>
                 <li>
