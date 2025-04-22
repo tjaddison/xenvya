@@ -133,7 +133,7 @@ export default function SaasProductDevelopment() {
                   Our end-to-end approach covers everything from initial concept and market validation to technical architecture, development, and ongoing evolution. We help you create software that delivers exceptional value to your customers while providing an appreciating asset for your business.
                 </p>
                 <p className="text-lg text-gray-600 dark:text-gray-300">
-                  Unlike traditional software, SaaS products generate increasing value over time as your customer base grows, allowing you to scale efficiently while maintaining high profit margins. Ownership of a successful SaaS platform significantly increases your company's valuation and provides strategic advantages in your market.
+                  Unlike traditional software, SaaS products generate increasing value over time as your customer base grows, allowing you to scale efficiently while maintaining high profit margins. Ownership of a successful SaaS platform significantly increases your company&apos;s valuation and provides strategic advantages in your market.
                 </p>
               </div>
 
@@ -175,7 +175,7 @@ export default function SaasProductDevelopment() {
                     </div>
                     <h4 className="text-xl font-bold mb-2">Increased Company Valuation</h4>
                     <p className="text-gray-600 dark:text-gray-300">
-                      SaaS businesses typically command higher valuation multiples than traditional businesses due to their predictable revenue, scalability, and growth potential. A successful SaaS product can significantly increase your company's market value.
+                      SaaS businesses typically command higher valuation multiples than traditional businesses due to their predictable revenue, scalability, and growth potential. A successful SaaS product can significantly increase your company&apos;s market value.
                     </p>
                   </div>
                   <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
@@ -222,7 +222,7 @@ export default function SaasProductDevelopment() {
                     <div>
                       <h4 className="text-xl font-bold mb-2">User-Centered Design</h4>
                       <p className="text-gray-600 dark:text-gray-300">
-                        We begin by understanding your users' needs, workflows, and pain points. Our design team creates intuitive interfaces that maximize productivity and minimize learning curves.
+                        We begin by understanding your users&apos; needs, workflows, and pain points. Our design team creates intuitive interfaces that maximize productivity and minimize learning curves.
                       </p>
                     </div>
                   </div>
@@ -278,7 +278,7 @@ export default function SaasProductDevelopment() {
                     </div>
                     <div>
                       <h4 className="font-bold mb-1">Productizing Your Expertise</h4>
-                      <p className="text-sm text-gray-600 dark:text-gray-300">Convert your company's specialized knowledge into software that can be sold at scale without proportionately increasing service costs.</p>
+                      <p className="text-sm text-gray-600 dark:text-gray-300">Convert your company&apos;s specialized knowledge into software that can be sold at scale without proportionately increasing service costs.</p>
                     </div>
                   </li>
                   <li className="flex gap-3">
@@ -352,7 +352,7 @@ export default function SaasProductDevelopment() {
                     </div>
                     <div>
                       <h4 className="font-bold mb-1">Tiered Subscription</h4>
-                      <p className="text-sm text-gray-600 dark:text-gray-300">Multiple service levels to match your organization's specific needs and budget.</p>
+                      <p className="text-sm text-gray-600 dark:text-gray-300">Multiple service levels to match your organization&apos;s specific needs and budget.</p>
                     </div>
                   </li>
                   <li className="flex gap-3">
@@ -407,7 +407,7 @@ export default function SaasProductDevelopment() {
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-bold mb-3">What technologies do you use for SaaS and AI product development?</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                We're technology agnostic and select the best stack for each specific product need. We typically build modern cloud-native applications using frameworks like React, Angular, or Vue.js for frontends, Node.js or Python for backends, and leading AI frameworks for intelligent features. All our solutions are designed for scalability, security, and seamless integration capabilities.
+                We&apos;re technology agnostic and select the best stack for each specific product need. We typically build modern cloud-native applications using frameworks like React, Angular, or Vue.js for frontends, Node.js or Python for backends, and leading AI frameworks for intelligent features. All our solutions are designed for scalability, security, and seamless integration capabilities.
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
@@ -423,7 +423,7 @@ export default function SaasProductDevelopment() {
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-bold mb-3">What's the typical timeline for developing a SaaS product?</h3>
+              <h3 className="text-xl font-bold mb-3">What&apos;s the typical timeline for developing a SaaS product?</h3>
               <p className="text-gray-600 dark:text-gray-300">
                 Our development timeline varies based on complexity, but we follow an iterative approach that delivers value quickly. Typically, we launch an MVP (Minimum Viable Product) within 3-4 months, followed by continuous enhancements based on real user feedback. This approach allows you to start generating revenue and learning from users sooner while we expand functionality over time.
               </p>

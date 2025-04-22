@@ -119,10 +119,10 @@ export default function SoftwareAcquisition() {
                   Xenvya applies a unique approach to software acquisition and revitalization, identifying undervalued or underutilized software assets with strong potential. We evaluate, acquire, and transform these products into high-value solutions that address specific market needs, while also breathing new life into existing platforms.
                 </p>
                 <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-                  Our acquisition strategy parallels successful real estate investment principles: we find promising software "properties," renovate and modernize them with enhanced features and technology, and then position them optimally in the market to maximize their value and utility.
+                  Our acquisition strategy parallels successful real estate investment principles: we find promising software &quot;properties,&quot; renovate and modernize them with enhanced features and technology, and then position them optimally in the market to maximize their value and utility.
                 </p>
                 <p className="text-lg text-gray-600 dark:text-gray-300">
-                  With our platform revitalization expertise, we transform aging software platforms into modern, competitive solutions that meet today's business demands, carefully preserving valuable business logic while replacing outdated architecture and improving user experiences.
+                  With our platform revitalization expertise, we transform aging software platforms into modern, competitive solutions that meet today&apos;s business demands, carefully preserving valuable business logic while replacing outdated architecture and improving user experiences.
                 </p>
               </div>
 
@@ -161,7 +161,7 @@ export default function SoftwareAcquisition() {
                     <div>
                       <h4 className="text-xl font-bold mb-2">Enhancement & Transformation</h4>
                       <p className="text-gray-600 dark:text-gray-300">
-                        Our engineering teams modernize and enhance the software through code refactoring, architecture optimization, cloud migration, new feature development, and UI/UX improvements. We often integrate AI capabilities to substantially increase the solution's value.
+                        Our engineering teams modernize and enhance the software through code refactoring, architecture optimization, cloud migration, new feature development, and UI/UX improvements. We often integrate AI capabilities to substantially increase the solution&apos;s value.
                       </p>
                     </div>
                   </div>
@@ -365,7 +365,7 @@ export default function SoftwareAcquisition() {
               <div className="bg-gradient-to-br from-purple-500 to-indigo-600 rounded-xl p-6 text-white">
                 <h3 className="text-xl font-bold mb-4">Looking to Exit Your Software Business?</h3>
                 <p className="mb-6">
-                  If you've built a valuable software product and are considering strategic options, our acquisition team would like to connect with you.
+                  If you&apos;ve built a valuable software product and are considering strategic options, our acquisition team would like to connect with you.
                 </p>
                 <Link href="/#contact" className="block w-full bg-white text-purple-600 py-3 px-6 rounded-lg transition-colors font-medium text-center hover:bg-gray-100">
                   Explore Acquisition Options
@@ -395,7 +395,7 @@ export default function SoftwareAcquisition() {
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-bold mb-3">What is your typical acquisition range?</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Our acquisition investments typically range from $1.5M to $7M, depending on the software's current revenue, customer base, market potential, and technical condition. We structure deals to create mutual value, sometimes including performance-based components that reward both parties for post-acquisition success.
+                Our acquisition investments typically range from $1.5M to $7M, depending on the software&apos;s current revenue, customer base, market potential, and technical condition. We structure deals to create mutual value, sometimes including performance-based components that reward both parties for post-acquisition success.
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
@@ -407,7 +407,7 @@ export default function SoftwareAcquisition() {
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-bold mb-3">Do you retain the original development team?</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                When possible, we aim to retain key team members who possess valuable domain knowledge and understand the software deeply. We offer attractive retention packages and career growth opportunities within our broader organization. For team members who don't transition, we provide support through the change.
+                When possible, we aim to retain key team members who possess valuable domain knowledge and understand the software deeply. We offer attractive retention packages and career growth opportunities within our broader organization. For team members who don&apos;t transition, we provide support through the change.
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
@@ -425,7 +425,7 @@ export default function SoftwareAcquisition() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Unlock the Hidden Potential in Software Assets</h2>
           <p className="text-xl mb-8">
-            Whether you're looking to sell your software business or need help identifying acquisition targets, our team can help maximize value through strategic enhancements.
+            Whether you&apos;re looking to sell your software business or need help identifying acquisition targets, our team can help maximize value through strategic enhancements.
           </p>
           <Link href="/#contact" className="inline-flex items-center justify-center bg-white text-purple-600 py-4 px-8 rounded-lg transition-colors font-medium text-lg hover:bg-gray-100">
             Start the Conversation
