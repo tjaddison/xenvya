@@ -27,7 +27,24 @@ export default function AboutUs() {
         
         <div className="flex items-center gap-4">
           <nav className="hidden md:flex space-x-4 lg:space-x-8">
-            <Link href="/#solutions" className="hover:underline text-sm lg:text-base">Solutions</Link>
+            {/* Solutions dropdown menu */}
+            <div className="relative group">
+              <button className="hover:underline text-sm lg:text-base flex items-center">
+                Solutions
+                <svg className="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div className="absolute left-0 mt-2 w-48 bg-white dark:bg-gray-800 rounded-md shadow-lg py-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                <Link href="/services/saas-product-development" className="block px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">
+                  SaaS Product Development
+                </Link>
+                <Link href="/services/software-acquisition" className="block px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">
+                  Software Acquisition
+                </Link>
+              </div>
+            </div>
+            
             <Link href="/#approach" className="hover:underline text-sm lg:text-base">Our Approach</Link>
             <Link href="/#values" className="hover:underline text-sm lg:text-base">Values</Link>
             <Link href="/#contact" className="hover:underline text-sm lg:text-base">Contact Us</Link>
@@ -53,9 +70,9 @@ export default function AboutUs() {
                   Back to Home
                 </Link>
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">About Xenvya</h1>
+              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">About Xenvya</h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-                Pioneering innovative software solutions that transform businesses through technology, expertise, and a commitment to excellence.
+                We&apos;re not just consultants; we&apos;re builders and investors passionate about transforming software potential into market success.
               </p>
             </div>
             <div className="md:w-1/2">
@@ -70,7 +87,7 @@ export default function AboutUs() {
                   <div className="text-center">
                     <h3 className="font-bold text-lg mb-2">Our Mission</h3>
                     <p className="text-gray-600 dark:text-gray-300">
-                      Empowering businesses with innovative software solutions that drive growth, efficiency, and competitive advantage.
+                      We&apos;re committed to building long-term partnerships with our clients, focusing on their success above all else.
                     </p>
                   </div>
                 </div>
@@ -184,7 +201,7 @@ export default function AboutUs() {
                 <p className="mb-4">
                   Ready to discuss how Xenvya can help transform your business through innovative software solutions?
                 </p>
-                <Link href="/#contact" className="inline-block bg-white text-indigo-600 hover:bg-indigo-50 py-2 px-4 rounded-lg font-medium transition-colors">
+                <Link href="/#contact" className="inline-flex items-center justify-center bg-white text-indigo-600 hover:bg-indigo-50 py-2 px-4 rounded-lg font-medium transition-colors">
                   Contact Us
                 </Link>
               </div>
@@ -348,8 +365,8 @@ export default function AboutUs() {
           <div className="border-t border-gray-800 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400">© 2025 Xenvya Consulting LLC. All rights reserved.</p>
             <div className="flex space-x-4 mt-4 md:mt-0">
-              <a href="#" className="text-gray-400 hover:text-white">Privacy Policy</a>
-              <a href="#" className="text-gray-400 hover:text-white">Terms of Service</a>
+              <Link href="/privacy-policy" className="text-gray-400 hover:text-white">Privacy Policy</Link>
+              <Link href="/terms-of-service" className="text-gray-400 hover:text-white">Terms of Service</Link>
             </div>
           </div>
         </div>
