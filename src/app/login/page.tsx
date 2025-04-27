@@ -4,16 +4,16 @@ import { useState } from 'react';
 import Link from 'next/link';
 
 export default function LoginPage() {
-  const [isLogin, setIsLogin] = useState(true);
+  const [isLogin] = useState(true);
   
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     alert('Incorrect username or password. Please try again or contact our support team if you continue to experience difficulty.');
   };
 
-  const toggleForm = () => {
-    setIsLogin(!isLogin);
-  };
+  // const toggleForm = () => {
+  //   setIsLogin(!isLogin);
+  // };
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -89,11 +89,6 @@ export default function LoginPage() {
                 {isLogin ? 'Sign In' : 'Create Account'}
               </button>
 
-              <div className="mt-4 text-center">
-                <button type="button" onClick={toggleForm} className="text-purple-600 text-sm hover:underline">
-                  {isLogin ? 'Need an account? Sign up' : 'Already have an account? Sign in'}
-                </button>
-              </div>
 
               <div className="mt-4 text-center text-sm">
                 <Link href="/" className="text-purple-600 hover:underline">Back to home</Link>
