@@ -3,56 +3,6 @@ import Link from "next/link";
 export default function TermsOfService() {
   return (
     <div className="min-h-screen flex flex-col bg-white dark:bg-gray-900">
-      {/* Navigation */}
-      <header className="p-4 sm:p-6 flex flex-wrap justify-between items-center relative">
-        <div className="flex items-center">
-          <Link href="/" className="flex items-center">
-            <svg width="32" height="32" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-2 sm:w-10 sm:h-10">
-              <path d="M60 10L110 40V80L60 110L10 80V40L60 10Z" fill="url(#paint0_linear)" />
-              <path d="M60 10L110 40V80L60 110L10 80V40L60 10Z" stroke="currentColor" strokeWidth="2" />
-              <path d="M37 55L60 65L83 55" stroke="white" strokeWidth="4" strokeLinecap="round" />
-              <path d="M60 65V90" stroke="white" strokeWidth="4" strokeLinecap="round" />
-              <defs>
-                <linearGradient id="paint0_linear" x1="60" y1="10" x2="60" y2="110" gradientUnits="userSpaceOnUse">
-                  <stop stopColor="#4F46E5" />
-                  <stop offset="1" stopColor="#9333EA" />
-                </linearGradient>
-              </defs>
-            </svg>
-            <h1 className="text-xl sm:text-2xl font-bold">XENVYA</h1>
-          </Link>
-        </div>
-        
-        <div className="flex items-center gap-4">
-          <nav className="hidden md:flex space-x-4 lg:space-x-8">
-            {/* Solutions dropdown menu */}
-            <div className="relative group">
-              <button className="hover:underline text-sm lg:text-base flex items-center">
-                Solutions
-                <svg className="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
-                </svg>
-              </button>
-              <div className="absolute left-0 mt-2 w-48 bg-white dark:bg-gray-800 rounded-md shadow-lg py-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-                <Link href="/services/saas-product-development" className="block px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">
-                  SaaS Product Development
-                </Link>
-                <Link href="/services/software-acquisition" className="block px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">
-                  Software Acquisition
-                </Link>
-              </div>
-            </div>
-            
-            <Link href="/#approach" className="hover:underline text-sm lg:text-base">Our Approach</Link>
-            <Link href="/#values" className="hover:underline text-sm lg:text-base">Values</Link>
-            <Link href="/#contact" className="hover:underline text-sm lg:text-base">Contact Us</Link>
-          </nav>
-          
-          <Link href="/login" className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-xs sm:text-sm px-3 sm:px-5 py-1.5 sm:py-2 whitespace-nowrap">
-            Login
-          </Link>
-        </div>
-      </header>
 
       {/* Main Content Area */}
       <div className="flex-grow py-16 sm:py-20 px-4 sm:px-6 lg:px-8">
@@ -137,80 +87,6 @@ export default function TermsOfService() {
           </div>
         </div>
       </div>
-
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12 px-6">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-4 gap-8">
-            <div>
-              <div className="flex items-center mb-4">
-                <svg width="32" height="32" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-2">
-                  <path d="M60 10L110 40V80L60 110L10 80V40L60 10Z" fill="url(#paint0_linear_footer)" />
-                  <path d="M60 10L110 40V80L60 110L10 80V40L60 10Z" stroke="white" strokeWidth="2" />
-                  <path d="M37 55L60 65L83 55" stroke="white" strokeWidth="4" strokeLinecap="round" />
-                  <path d="M60 65V90" stroke="white" strokeWidth="4" strokeLinecap="round" />
-                  <defs>
-                    <linearGradient id="paint0_linear_footer" x1="60" y1="10" x2="60" y2="110" gradientUnits="userSpaceOnUse">
-                      <stop stopColor="#4F46E5" />
-                      <stop offset="1" stopColor="#9333EA" />
-                    </linearGradient>
-                  </defs>
-                </svg>
-                <h2 className="text-2xl font-bold">XENVYA</h2>
-              </div>
-              <p className="text-gray-400">
-                Innovative software and AI solutions that drive business growth and create remarkable customer experiences.
-              </p>
-            </div>
-            <div>
-              <h3 className="font-bold mb-4">Solutions</h3>
-              <ul className="space-y-2">
-                <li><Link href="/services/saas-product-development" className="text-gray-400 hover:text-white">SaaS Product Development</Link></li>
-                <li><Link href="/services/software-acquisition" className="text-gray-400 hover:text-white">Software Acquisition</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold mb-4">Company</h3>
-              <ul className="space-y-2">
-                <li><Link href="/about" className="text-gray-400 hover:text-white">About Us</Link></li>
-                <li><Link href="/#approach" className="text-gray-400 hover:text-white">Our Approach</Link></li>
-                <li><Link href="/#values" className="text-gray-400 hover:text-white">Core Values</Link></li>
-                <li><Link href="/#contact" className="text-gray-400 hover:text-white">Contact</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold mb-4">Connect</h3>
-              <ul className="space-y-2">
-                <li>
-                  <a href="#" className="text-gray-400 hover:text-white flex items-center">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-2">
-                      <path d="M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V21H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V21H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M6 9H2V21H6V9Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M4 6C5.10457 6 6 5.10457 6 4C6 2.89543 5.10457 2 4 2C2.89543 2 2 2.89543 2 4C2 5.10457 2.89543 6 4 6Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                    LinkedIn
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-400 hover:text-white flex items-center">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-2">
-                      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" stroke="currentColor" strokeWidth="1.5" />
-                    </svg>
-                    X
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="border-t border-gray-800 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400">© 2025 Xenvya Consulting LLC. All rights reserved.</p>
-            <div className="flex space-x-4 mt-4 md:mt-0">
-              <Link href="/privacy-policy" className="text-gray-400 hover:text-white">Privacy Policy</Link>
-              <Link href="/terms-of-service" className="text-gray-400 hover:text-white">Terms of Service</Link>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 } 

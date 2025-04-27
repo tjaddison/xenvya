@@ -10,7 +10,13 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // ... your theme extensions
+      typography: {
+        DEFAULT: {
+          css: {
+            maxWidth: 'none',
+          },
+        },
+      },
     },
   },
   plugins: [

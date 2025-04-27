@@ -1,11 +1,49 @@
 'use client';
 
-import { FormEvent } from 'react';
+import { useState, FormEvent } from 'react';
 
-export default function ContactForm() {
-  const handleSubmit = (e: FormEvent) => {
+export default function ContactForm(): JSX.Element {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: ""
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<null | "success" | "error">(null);
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value
+    });
+  };
+
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    alert('Thank you for your interest! This is a demo website - your message would be sent in a real implementation.');
+    setIsSubmitting(true);
+    
+    try {
+      // Send form data to API
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      });
+      
+      if (response.ok) {
+        setSubmitStatus("success");
+        setFormData({ name: "", email: "", message: "" });
+      } else {
+        setSubmitStatus("error");
+      }
+    } catch (error) {
+      setSubmitStatus("error");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -17,6 +55,9 @@ export default function ContactForm() {
         <input
           type="text"
           id="name"
+          name="name"
+          value={formData.name}
+          onChange={handleChange}
           className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-800"
           placeholder="Jane Smith"
         />
@@ -28,6 +69,9 @@ export default function ContactForm() {
         <input
           type="email"
           id="email"
+          name="email"
+          value={formData.email}
+          onChange={handleChange}
           className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-800"
           placeholder="jane@company.com"
         />
@@ -38,7 +82,10 @@ export default function ContactForm() {
         </label>
         <textarea
           id="message"
+          name="message"
           rows={4}
+          value={formData.message}
+          onChange={handleChange}
           className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-800"
           placeholder="I'm looking for a solution that helps with..."
         ></textarea>
