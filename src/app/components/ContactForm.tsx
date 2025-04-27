@@ -2,14 +2,12 @@
 
 import { useState, FormEvent } from 'react';
 
-export default function ContactForm(): JSX.Element {
+export default function ContactForm() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: ""
   });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState<null | "success" | "error">(null);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -21,7 +19,6 @@ export default function ContactForm(): JSX.Element {
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setIsSubmitting(true);
     
     try {
       // Send form data to API
@@ -34,15 +31,13 @@ export default function ContactForm(): JSX.Element {
       });
       
       if (response.ok) {
-        setSubmitStatus("success");
+        alert("Message sent successfully!");
         setFormData({ name: "", email: "", message: "" });
       } else {
-        setSubmitStatus("error");
+        alert("Failed to send message. Please try again.");
       }
-    } catch (error) {
-      setSubmitStatus("error");
-    } finally {
-      setIsSubmitting(false);
+    } catch {
+      alert("An error occurred. Please try again later.");
     }
   };
 
@@ -98,7 +93,7 @@ export default function ContactForm(): JSX.Element {
           <path d="M22 2L11 13" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
-        Let's Work Together
+        Let&rsquo;s Work Together
       </button>
     </form>
   );

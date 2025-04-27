@@ -12,7 +12,7 @@ interface MenuItem {
   onClick?: () => void;
 }
 
-export default function MobileMenu({ open, onClose }: MobileMenuProps): JSX.Element {
+export default function MobileMenu({ open, onClose }: MobileMenuProps) {
   const menuItems: MenuItem[] = [
     { href: "/services/saas-product-development", label: "SaaS Dev" },
     { href: "/services/software-acquisition", label: "Acquisition" },

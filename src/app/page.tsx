@@ -3,7 +3,7 @@
 import Link from "next/link";
 import ContactForm from "./components/ContactForm";
 
-export default function Home(): JSX.Element {
+export default function Home() {
   // const [mobileMenuOpen, setMobileMenuOpen] = useState(false); // Removed as unused
 
   // Removed unused functions toggleMobileMenu and closeMobileMenu
@@ -12,7 +12,7 @@ export default function Home(): JSX.Element {
     <div className="min-h-screen flex flex-col">
 
       {/* Hero Section */}
-      <section className="flex flex-col items-center justify-center py-12 sm:py-16 md:py-20 px-4 text-center relative prose-headings:text-inherit prose-p:text-inherit">
+      <section className="flex flex-col items-center justify-center py-12 sm:py-16 md:py-20 px-4 text-center relative">
         <div className="absolute opacity-10 dark:opacity-5 top-0 left-0 w-full h-full overflow-hidden">
           <svg width="300" height="300" viewBox="0 0 100 100" className="absolute top-1/4 left-1/4 transform -translate-x-1/2 -translate-y-1/2 hidden sm:block">
             <circle cx="50" cy="50" r="40" fill="none" stroke="currentColor" strokeWidth="1" />
@@ -25,7 +25,7 @@ export default function Home(): JSX.Element {
             <rect x="40" y="40" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="1" />
           </svg>
         </div>
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 max-w-4xl relative z-10 px-2">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 max-w-4xl relative z-10 px-2 text-gray-900 dark:text-white">
           Software That Scales Your Ambition
         </h1>
         <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-8 sm:mb-10">
@@ -55,7 +55,7 @@ export default function Home(): JSX.Element {
           </svg>
         </div>
         <div className="max-w-7xl mx-auto relative z-10">
-          <h2 className="text-2xl sm:text-3xl font-bold mb-8 sm:mb-12 text-center">Our Core Services</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold mb-8 sm:mb-12 text-center text-gray-900 dark:text-white">Our Core Services</h2>
           <div className="max-w-3xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
               <div className="bg-white dark:bg-gray-800 p-5 sm:p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
@@ -103,14 +103,14 @@ export default function Home(): JSX.Element {
       {/* Why Xenvya Section */}
       <section id="approach" className="py-16 sm:py-20 md:py-24 px-4 bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-800">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4 sm:mb-6">
+          <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4 sm:mb-6 text-gray-900 dark:text-white">
             The Xenvya Advantage
           </h2>
           <p className="text-gray-700 dark:text-gray-300 mb-6 sm:mb-8 text-base sm:text-lg leading-relaxed text-center">
             Our unique model blends expert SaaS development with strategic software acquisition. We build valuable assets from scratch *and* unlock potential in existing ones.
           </p>
           <div className="bg-gradient-to-r from-indigo-50 to-purple-50 dark:from-indigo-900/20 dark:to-purple-900/20 p-4 sm:p-8 rounded-xl shadow-sm border border-gray-100 dark:border-gray-800">
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 sm:mb-6 text-center">Build & Buy: A Smarter Software Strategy</h3>
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 sm:mb-6 text-center text-gray-900 dark:text-white">Build & Buy: A Smarter Software Strategy</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8 mb-4 sm:mb-6">
               <div className="bg-white dark:bg-gray-800 p-4 sm:p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
                 <h4 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-purple-700 dark:text-purple-400 flex items-center">

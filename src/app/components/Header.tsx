@@ -12,7 +12,7 @@ interface DropdownProps {
   isMobile?: boolean;
 }
 
-export default function Header(): JSX.Element {
+export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   
@@ -20,7 +20,7 @@ export default function Header(): JSX.Element {
     setActiveDropdown(activeDropdown === name ? null : name);
   };
 
-  const DropdownMenu = ({ name, title, items, isMobile = false }: DropdownProps): JSX.Element => {
+  const DropdownMenu = ({ name, title, items, isMobile = false }: DropdownProps) => {
     const dropdownId = isMobile ? `mobile${name}` : name;
     
     return (

@@ -10,7 +10,7 @@ interface FooterSection {
   links: FooterLink[];
 }
 
-export default function Footer(): JSX.Element {
+export default function Footer() {
   const footerSections: FooterSection[] = [
     {
       title: "Services",
