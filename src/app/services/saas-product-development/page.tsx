@@ -1,6 +1,11 @@
+'use client';
+
 import Link from "next/link";
+import usePageViewTimer from '../../hooks/usePageViewTimer';
 
 export default function SaasProductDevelopment() {
+  usePageViewTimer();
+
   return (
     <div className="min-h-screen flex flex-col bg-white dark:bg-gray-900">
 
