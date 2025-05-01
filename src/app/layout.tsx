@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { ReactNode } from 'react';
+import { ReactNode, Suspense } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import GoogleAnalytics from './components/GoogleAnalytics';
+import SearchParamsTracker from './components/SearchParamsTracker';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,6 +36,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white dark:bg-gray-900 text-gray-900 dark:text-white flex flex-col min-h-screen w-full`}
       >
         <GoogleAnalytics />
+        <Suspense fallback={null}>
+          <SearchParamsTracker />
+        </Suspense>
         <Header />
         <main className="flex-grow w-full">
           <div className="container mx-auto px-4 sm:px-6 md:px-8">

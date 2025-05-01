@@ -1,25 +1,24 @@
 'use client';
 
 import Script from 'next/script';
-import { usePathname, useSearchParams } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import { useEffect } from 'react';
 
 const GA_MEASUREMENT_ID = 'G-2RL47EC98B'; // Your measurement ID from the screenshot
 
 export default function GoogleAnalytics() {
   const pathname = usePathname();
-  const searchParams = useSearchParams();
 
   useEffect(() => {
     if (pathname) {
       // Page view tracking
       window.gtag?.('event', 'page_view', {
         page_path: pathname,
-        page_search: searchParams?.toString() || '',
+        page_location: window.location.href,
         page_title: document.title,
       });
     }
-  }, [pathname, searchParams]);
+  }, [pathname]);
 
   // Set up intersection observers for section tracking
   useEffect(() => {

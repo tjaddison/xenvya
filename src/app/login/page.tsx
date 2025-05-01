@@ -1,9 +1,11 @@
 'use client';
 
 import { useState } from 'react';
+import usePageViewTimer from '../hooks/usePageViewTimer';
 import Link from 'next/link';
 
 export default function LoginPage() {
+  usePageViewTimer();
   const [isLogin] = useState(true);
   
   const handleSubmit = (e: React.FormEvent) => {
