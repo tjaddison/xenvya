@@ -1,9 +1,11 @@
 'use client';
 
 import Link from "next/link";
+import usePageViewTimer from "./hooks/usePageViewTimer";
 import ContactForm from "./components/ContactForm";
 
 export default function Home() {
+  usePageViewTimer();
   // const [mobileMenuOpen, setMobileMenuOpen] = useState(false); // Removed as unused
 
   // Removed unused functions toggleMobileMenu and closeMobileMenu

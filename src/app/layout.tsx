@@ -4,6 +4,7 @@ import "./globals.css";
 import { ReactNode } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import GoogleAnalytics from './components/GoogleAnalytics';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,6 +34,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white dark:bg-gray-900 text-gray-900 dark:text-white flex flex-col min-h-screen w-full`}
       >
+        <GoogleAnalytics />
         <Header />
         <main className="flex-grow w-full">
           <div className="container mx-auto px-4 sm:px-6 md:px-8">
