@@ -76,10 +76,10 @@ export default function Header() {
     );
   };
   
-  // Define solution items based on page.tsx menu
+  // Define solution items for AI services
   const solutionsItems = [
-    { href: "/services/saas-product-development", label: "SaaS Product Development" },
-    { href: "/services/software-acquisition", label: "Software Acquisition" }
+    { href: "/services/ai-readiness", label: "AI Readiness" },
+    { href: "/services/ai-integration", label: "AI Integration Strategy" }
   ];
   
   return (
@@ -110,15 +110,15 @@ export default function Header() {
             <DropdownMenu name="Solutions" title="Solutions" items={solutionsItems} />
             
             {/* Regular links matching page.tsx */}
-            <Link href="/#approach" className="text-gray-700 dark:text-gray-200 hover:text-indigo-600 dark:hover:text-indigo-400">
-              Our Approach
+            <Link href="/#framework" className="text-gray-700 dark:text-gray-200 hover:text-indigo-600 dark:hover:text-indigo-400">
+              The CORE Method
             </Link>
             
             <Link href="/#values" className="text-gray-700 dark:text-gray-200 hover:text-indigo-600 dark:hover:text-indigo-400">
-              Values
+              Why Xenvya
             </Link>
             
-            <Link href="/#contact" className="text-gray-700 dark:text-gray-200 hover:text-indigo-600 dark:hover:text-indigo-400">
+            <Link href="/discovery-call" className="text-gray-700 dark:text-gray-200 hover:text-indigo-600 dark:hover:text-indigo-400">
               Contact Us
             </Link>
           </nav>
@@ -178,15 +178,15 @@ export default function Header() {
             <nav className="mt-8 space-y-6">
               {/* Mobile menu matching desktop menu */}
               <DropdownMenu name="Solutions" title="Solutions" items={solutionsItems} isMobile={true} />
-              <Link href="/#approach" className="block text-lg font-medium text-gray-700 dark:text-white" onClick={() => setMobileMenuOpen(false)}>
-                Our Approach
+              <Link href="/#framework" className="block text-lg font-medium text-gray-700 dark:text-white" onClick={() => setMobileMenuOpen(false)}>
+                The CORE Method
               </Link>
               
               <Link href="/#values" className="block text-lg font-medium text-gray-700 dark:text-white" onClick={() => setMobileMenuOpen(false)}>
-                Values
+                Why Xenvya
               </Link>
               
-              <Link href="/#contact" className="block text-lg font-medium text-gray-700 dark:text-white" onClick={() => setMobileMenuOpen(false)}>
+              <Link href="/discovery-call" className="block text-lg font-medium text-gray-700 dark:text-white" onClick={() => setMobileMenuOpen(false)}>
                 Contact Us
               </Link>
             </nav>

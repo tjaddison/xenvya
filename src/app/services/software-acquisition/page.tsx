@@ -23,7 +23,7 @@ export default function SoftwareAcquisition() {
             <span className="bg-purple-100 dark:bg-purple-900/50 text-purple-700 dark:text-purple-300 text-sm font-medium px-4 py-2 rounded-full">Value Enhancement</span>
             <span className="bg-purple-100 dark:bg-purple-900/50 text-purple-700 dark:text-purple-300 text-sm font-medium px-4 py-2 rounded-full">Platform Revitalization</span>
           </div>
-          <Link href="/#contact" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-purple-500 to-indigo-500 text-white rounded-lg font-medium hover:from-purple-600 hover:to-indigo-600 transition-all shadow-md hover:shadow-lg text-lg">
+          <Link href="/discovery-call" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-purple-500 to-indigo-500 text-white rounded-lg font-medium hover:from-purple-600 hover:to-indigo-600 transition-all shadow-md hover:shadow-lg text-lg">
             Discover Opportunities
           </Link>
         </div>
@@ -111,7 +111,7 @@ export default function SoftwareAcquisition() {
               <p className="text-lg mb-6 max-w-2xl mx-auto">
                 If you&apos;ve built valuable software and are considering strategic options, we offer fair valuations and smooth transitions.
               </p>
-              <Link href="/#contact" className="inline-block bg-white text-purple-600 py-3 px-8 rounded-lg transition-colors font-medium text-center hover:bg-gray-100">
+              <Link href="/discovery-call" className="inline-block bg-white text-purple-600 py-3 px-8 rounded-lg transition-colors font-medium text-center hover:bg-gray-100">
                 Explore Acquisition Options
               </Link>
             </div>
@@ -150,7 +150,7 @@ export default function SoftwareAcquisition() {
       <section className="py-20 px-6 bg-gradient-to-br from-purple-500 to-indigo-600 text-white">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">Unlock Hidden Potential in Software Assets</h2>
-          <Link href="/#contact" className="inline-flex items-center justify-center bg-white text-purple-600 py-4 px-8 rounded-lg transition-colors font-medium text-lg hover:bg-gray-100">
+          <Link href="/discovery-call" className="inline-flex items-center justify-center bg-white text-purple-600 py-4 px-8 rounded-lg transition-colors font-medium text-lg hover:bg-gray-100">
             Start the Conversation
           </Link>
         </div>
