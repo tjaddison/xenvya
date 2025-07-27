@@ -15,16 +15,16 @@ export default function Footer() {
     {
       title: "Services",
       links: [
-        { href: "/services/saas-product-development", label: "SaaS Development" },
-        { href: "/services/software-acquisition", label: "Software Acquisition" }
+        { href: "/services/ai-readiness", label: "AI Readiness" },
+        { href: "/services/ai-integration", label: "AI Integration Strategy" }
       ]
     },
     {
       title: "Company",
       links: [
-        { href: "/#approach", label: "Our Approach" },
-        { href: "/#values", label: "Values" },
-        { href: "/#contact", label: "Contact" }
+        { href: "/#framework", label: "The CORE Method" },
+        { href: "/#values", label: "Why Xenvya" },
+        { href: "/discovery-call", label: "Contact" }
       ]
     },
     {
@@ -57,7 +57,7 @@ export default function Footer() {
               <h1 className="text-xl font-bold text-gray-900 dark:text-white">XENVYA</h1>&nbsp;[<i>zen-VI-yuh</i>]
             </Link>
             <p className="mt-4 text-gray-600 dark:text-gray-300 text-sm">
-            Unlock your business’s full potential with AI-driven SaaS solutions and software revitalization that fuel profit and accelerate growth.
+            AI readiness consulting that makes your software investments pay off.
             </p>
             {/* Social Media Links */}
             {/* <div className="mt-6 space-x-4 flex">

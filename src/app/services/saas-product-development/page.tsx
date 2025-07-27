@@ -23,7 +23,7 @@ export default function SaasProductDevelopment() {
             <span className="bg-teal-100 dark:bg-teal-900/50 text-teal-700 dark:text-teal-300 text-sm font-medium px-4 py-2 rounded-full">AI Integration</span>
             <span className="bg-teal-100 dark:bg-teal-900/50 text-teal-700 dark:text-teal-300 text-sm font-medium px-4 py-2 rounded-full">Scalable Architecture</span>
           </div>
-          <Link href="/#contact" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-teal-500 to-green-500 text-white rounded-lg font-medium hover:from-teal-600 hover:to-green-600 transition-all shadow-md hover:shadow-lg text-lg">
+          <Link href="/discovery-call" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-teal-500 to-green-500 text-white rounded-lg font-medium hover:from-teal-600 hover:to-green-600 transition-all shadow-md hover:shadow-lg text-lg">
             Create Your SaaS Product
           </Link>
         </div>
@@ -141,7 +141,7 @@ export default function SaasProductDevelopment() {
               <p className="text-lg mb-6 max-w-2xl mx-auto">
                 Convert your company&apos;s specialized knowledge into software that can be sold at scale without proportionately increasing service costs.
               </p>
-              <Link href="/#contact" className="inline-block bg-white text-teal-600 py-3 px-8 rounded-lg transition-colors font-medium text-center hover:bg-gray-100">
+              <Link href="/discovery-call" className="inline-block bg-white text-teal-600 py-3 px-8 rounded-lg transition-colors font-medium text-center hover:bg-gray-100">
                 Start Your SaaS Journey
               </Link>
             </div>
@@ -180,7 +180,7 @@ export default function SaasProductDevelopment() {
       <section className="py-20 px-6 bg-gradient-to-br from-teal-500 to-green-600 text-white">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">Transform Your Expertise Into Scalable Software</h2>
-          <Link href="/#contact" className="inline-flex items-center justify-center bg-white text-teal-600 py-4 px-8 rounded-lg transition-colors font-medium text-lg hover:bg-gray-100">
+          <Link href="/discovery-call" className="inline-flex items-center justify-center bg-white text-teal-600 py-4 px-8 rounded-lg transition-colors font-medium text-lg hover:bg-gray-100">
             Start the Conversation
           </Link>
         </div>

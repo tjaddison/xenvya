@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Xenvya Consulting | Software & AI Solutions",
-  description: "Xenvya Consulting creates exceptional software and AI solutions that streamline business processes and unlock new capabilities for organizations.",
+  title: "Xenvya | AI Readiness Consulting & Implementation",
+  description: "Stop wasting money on AI tools your team can't use. We build essential AI capabilities through our CORE Method—transforming software investments into business results.",
 };
 
 interface RootLayoutProps {

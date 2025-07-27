@@ -47,7 +47,7 @@ export default function AboutUs() {
             
             <Link href="/#approach" className="hover:underline text-sm lg:text-base">Our Approach</Link>
             <Link href="/#values" className="hover:underline text-sm lg:text-base">Values</Link>
-            <Link href="/#contact" className="hover:underline text-sm lg:text-base">Contact Us</Link>
+            <Link href="/discovery-call" className="hover:underline text-sm lg:text-base">Contact Us</Link>
           </nav>
           
           <Link href="/login" className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-xs sm:text-sm px-3 sm:px-5 py-1.5 sm:py-2 whitespace-nowrap">
@@ -72,7 +72,7 @@ export default function AboutUs() {
               </div>
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">About Xenvya</h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-                We&apos;re not just consultants; we&apos;re builders and investors passionate about transforming software potential into market success.
+                We&apos;re AI readiness experts who transform teams from AI-confused to AI-confident, turning your technology investments into competitive advantages.
               </p>
             </div>
             <div className="md:w-1/2">
@@ -105,13 +105,13 @@ export default function AboutUs() {
               <div>
                 <h2 className="text-3xl font-bold mb-6">Our Story</h2>
                 <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-                  Founded in 2025, Xenvya was established with a simple yet powerful vision: technology should serve humanity, not the other way around. We recognized that the most successful technology solutions begin with listening, not coding.
+                  Founded in 2025, Xenvya was established with a clear mission: to bridge the gap between AI potential and real business results. We recognized that most companies struggle not with AI technology itself, but with knowing how to use it effectively.
                 </p>
                 <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-                  At Xenvya, we believe the fundamental human functions of empathy and listening are key to solving complex problems. While others lead with technology, we lead with understanding. This customer-first mindset isn&apos;t just a philosophy—it&apos;s embedded in everything we do, from our first conversation to final implementation.
+                  Our approach is built on research-backed frameworks developed by industry-leading AI organizations in partnership with top universities. We don't just help people use AI tools—we build the fundamental capabilities for working with AI through our CORE Method: Control, Output, Review, and Ethics.
                 </p>
                 <p className="text-lg text-gray-600 dark:text-gray-300">
-                  Our approach has proven that when we truly understand the human elements behind business challenges, we can develop information technology solutions of true, enduring value. As we grow, this commitment to putting people first remains at the heart of Xenvya&apos;s mission, guiding how we build relationships and transform businesses through technology.
+                  Research shows that when teams master these core AI competencies, they see dramatic improvements in productivity, decision-making, and innovation. As we grow, this commitment to practical AI readiness remains at the heart of Xenvya's mission.
                 </p>
               </div>
 
@@ -161,37 +161,37 @@ export default function AboutUs() {
                     <svg className="h-6 w-6 text-green-500 mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>SaaS Product Development</span>
+                    <span>AI Readiness</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-green-500 mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>AI & Machine Learning Solutions</span>
+                    <span>AI Integration Strategy</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-green-500 mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Software Acquisition & Revitalization</span>
+                    <span>The CORE Method Implementation</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-green-500 mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Cloud Solutions & Architecture</span>
+                    <span>AI Ethics & Governance Consulting</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-green-500 mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Digital Transformation</span>
+                    <span>Team AI Certification Programs</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-green-500 mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Product Strategy & Consulting</span>
+                    <span>ROI-Focused AI Implementation</span>
                   </li>
                 </ul>
               </div>
@@ -201,7 +201,7 @@ export default function AboutUs() {
                 <p className="mb-4">
                   Ready to discuss how Xenvya can help transform your business through innovative software solutions?
                 </p>
-                <Link href="/#contact" className="inline-flex items-center justify-center bg-white text-indigo-600 hover:bg-indigo-50 py-2 px-4 rounded-lg font-medium transition-colors">
+                <Link href="/discovery-call" className="inline-flex items-center justify-center bg-white text-indigo-600 hover:bg-indigo-50 py-2 px-4 rounded-lg font-medium transition-colors">
                   Contact Us
                 </Link>
               </div>
@@ -292,7 +292,7 @@ export default function AboutUs() {
           <p className="text-xl mb-8">
             Connect with our team to discuss how Xenvya can help you leverage innovative technology to achieve your business goals.
           </p>
-          <Link href="/#contact" className="inline-flex items-center justify-center bg-white text-blue-600 py-4 px-8 rounded-lg transition-colors font-medium text-lg hover:bg-gray-100">
+          <Link href="/discovery-call" className="inline-flex items-center justify-center bg-white text-blue-600 py-4 px-8 rounded-lg transition-colors font-medium text-lg hover:bg-gray-100">
             Get in Touch
           </Link>
         </div>
@@ -335,7 +335,7 @@ export default function AboutUs() {
                 <li><Link href="/about" className="text-gray-400 hover:text-white">About Us</Link></li>
                 <li><Link href="/#approach" className="text-gray-400 hover:text-white">Our Approach</Link></li>
                 <li><Link href="/#values" className="text-gray-400 hover:text-white">Core Values</Link></li>
-                <li><Link href="/#contact" className="text-gray-400 hover:text-white">Contact</Link></li>
+                <li><Link href="/discovery-call" className="text-gray-400 hover:text-white">Contact</Link></li>
               </ul>
             </div>
             <div>
