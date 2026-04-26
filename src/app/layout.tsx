@@ -1,25 +1,47 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Cormorant_Garamond, Space_Grotesk, JetBrains_Mono, Instrument_Serif } from "next/font/google";
 import "./globals.css";
-import { ReactNode, Suspense } from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import GoogleAnalytics from './components/GoogleAnalytics';
-import SearchParamsTracker from './components/SearchParamsTracker';
+import { ReactNode, Suspense } from "react";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import GoogleAnalytics from "./components/GoogleAnalytics";
+import SearchParamsTracker from "./components/SearchParamsTracker";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const cormorant = Cormorant_Garamond({
+  variable: "--font-cormorant",
   subsets: ["latin"],
+  weight: ["400", "500"],
+  style: ["normal", "italic"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const spaceGrotesk = Space_Grotesk({
+  variable: "--font-space-grotesk",
   subsets: ["latin"],
+  weight: ["300", "400", "500"],
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  variable: "--font-jetbrains",
+  subsets: ["latin"],
+  weight: ["400"],
+});
+
+const instrumentSerif = Instrument_Serif({
+  variable: "--font-instrument",
+  subsets: ["latin"],
+  weight: ["400"],
+  style: ["normal", "italic"],
 });
 
 export const metadata: Metadata = {
-  title: "Xenvya | AI Readiness Consulting & Implementation",
-  description: "Stop wasting money on AI tools your team can't use. We build essential AI capabilities through our CORE Method—transforming software investments into business results.",
+  title: "Xenvya — Holding company",
+  description:
+    "Xenvya Consulting LLC is a Virginia-based holding company established August 2020. It houses operating products including GovBiz.ai.",
+  openGraph: {
+    title: "Xenvya",
+    description: "A Virginia-based, owner-operated holding company.",
+    type: "website",
+  },
 };
 
 interface RootLayoutProps {
@@ -28,23 +50,40 @@ interface RootLayoutProps {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en">
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Xenvya Consulting LLC",
+              url: "https://xenvya.com",
+              legalName: "Xenvya Consulting LLC",
+              foundingDate: "2020-08",
+              foundingLocation: "Virginia, USA",
+              email: "contact@xenvya.com",
+              subOrganization: [
+                {
+                  "@type": "Organization",
+                  name: "GovBiz.ai",
+                  url: "https://govbiz.ai",
+                },
+              ],
+            }),
+          }}
+        />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white dark:bg-gray-900 text-gray-900 dark:text-white flex flex-col min-h-screen w-full`}
+        className={`${cormorant.variable} ${spaceGrotesk.variable} ${jetbrainsMono.variable} ${instrumentSerif.variable}`}
       >
         <GoogleAnalytics />
         <Suspense fallback={null}>
           <SearchParamsTracker />
         </Suspense>
         <Header />
-        <main className="flex-grow w-full">
-          <div className="container mx-auto px-4 sm:px-6 md:px-8">
-            {children}
-          </div>
-        </main>
+        {children}
         <Footer />
       </body>
     </html>
